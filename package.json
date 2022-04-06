@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-image-demo",
+  "version": "1.0.0",
+  "description": "nodejs image demo",
+  "author": "katjuell <kathleenjuell@gmail.com>",
+  "license": "MIT",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/katjuell/nodejs-image-demo.git"
+  },
+  "keywords": [
+    "nodejs",
+    "bootstrap",
+    "express"
+  ],
+  "dependencies": {
+    "amqplib": "^0.5.6",
+    "aws-sdk": "^2.720.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.10",
+    "puppeteer": "^13.5.2",
+    "puppeteer-core": "^13.5.2",
+    "ws": "^7.2.3",
+    "xvfb": "^0.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
